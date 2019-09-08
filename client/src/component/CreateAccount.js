@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Field, ErrorMessage } from 'formik';
 import Fieldvalidation from '../utils/validation';
-import '../container/auth/styles.css';
+import '../container/auth/styles.scss';
 
 
 const Errors = {

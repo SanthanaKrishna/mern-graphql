@@ -11,7 +11,7 @@ exports.resolvers = {
     },
 
     Mutation: {
-        signupUser: async (parent, args, context) => {
+        signUpUser: async (parent, args, context) => {
             const { User } = context;
             const { username, email, password } = args;
             // const user = await User.findOne({ email })

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import './styles.css'
+import './styles.scss';
 
 
 class Login extends React.Component {
@@ -8,7 +8,7 @@ class Login extends React.Component {
     handleInputChange = (event, props) => {
         const { setFieldValue } = props;
         const { name, value } = event.target;
-        let inputValue = '';
+        // let inputValue = '';
         if (name === 'username') {
             setFieldValue(name, value);
         } else if (name === 'password') {
